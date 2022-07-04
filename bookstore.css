@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: grid;
+    grid-template-columns: auto 0px; 
+  }
+
+header{
+    background-color: #f63232;
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    background-color: #feb614;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    color: white;
+    padding: 30px;
+}
+.banner h2{
+    font-size: 74px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 80px;
+    text-align: center;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav li{
+    width: 22%;
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+    font-family: 'Poppins', sans-serif;
+}
+nav li a:hover{
+    background-color:white;
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding: 5px;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: #f63232;
+    font-size: 48px;
+}
+article p{
+    line-height: 2em;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+section.join{
+    background:#f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+.join h2{
+    font-size: 30px;
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 2px solid black;
+}
+footer{
+    background: #f63232;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+}
+nav li a:hover{
+    text-decoration: underline;
+
+}
+.images li:hover{
+    position:relative;
+    top:-4px;
+    
+}
+.top {
+    --offset: 50px; 
+  
+    position: sticky;
+    bottom: 20px;      
+    margin-right: 10px; 
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+  
+    /* visual styling */
+    width: 45px;
+    aspect-ratio: 1;
+    background: #ff8b24;
+    border-radius: 10px;
+  }
+  
+  .top:before {
+    content: "";
+    position: absolute;
+    inset: 30%;
+    transform: translateY(20%) rotate(-45deg);
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30%;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    left: 10px;
+  }
+#bestsellers h2{
+    text-align: center;
+    font-size: 30px;
+} 
+#bestsellers p{
+    text-align: center;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+}
+.flexbox-container2{
+    display: flex;
+    justify-content: center;
+}
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: white;
+}
+.flexbox-item-1{
+    min-height: 100px;
+    text-align: center;
+}
+.flexbox-item-2{
+    min-height: 200px;
+    text-align: center;
+}
+.flexbox-item-3{
+    min-height: 300px;
+    text-align: center;
+}
+.button{
+    border: 5px solid blue;
+    background: none;
+    color: #3498db;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Poppins', sans-serif;
+    transition-duration: .8s;
+    border-radius: 25px;
+    
+}
+.button:hover{
+    background-color: #3498db;
+}
+.flexbox-item:hover{
+    position: relative;
+    top:-4px;
+    color: blue;
+}
+#recommendations{
+    text-align: center;
+}
+#reviews{
+    text-align: center;
+}
+#intro{
+    text-align: center;
+}
+
